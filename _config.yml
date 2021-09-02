@@ -9,7 +9,7 @@ name: Jake Stocker
 description: Devops Engineer from Cardiff
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/fawltea/fawltea.github.io/master/images/human_bust_commission___jake_by_smokyjack_db076it-fullview.jpg
+avatar: https://github.com/fawltea/fawltea.github.io/blob/master/images/human_bust_commission___jake_by_smokyjack_db076it-fullview.jpg
 
 #
 # Flags below are optional
@@ -25,8 +25,8 @@ footer-links:
   instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter:
+  rss: #
+  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
