@@ -4,17 +4,29 @@ title: CV
 permalink: /cv/
 ---
 
-Hello, I'm Jake, a devops engineer based in Cardiff. I enjoy building things, breaking things and building better things. I found my way into devops after learning that Blue team security is a bit boring. I am more than happy working alone but much prefer working with a team. Problems that I dont know how to solve strate away are my favourte and 
+Hello, I'm Jake, a devops engineer based in Cardiff. I found my way into devops after working in blue team security didnt scratch my itech to fix and build things. I enjoy problem solving and am motavated by adversaty. I am more than happy working alone but much prefer working with a team. Outside of work I enjoy video games, playing squash, photography and cooking. Thank you for taking the time to read my cv.
 
-### More Information
+### Skills
+<pre>
+AWS       Terraform      Git        Github               Github actions 
+Jenkins   MongoDB     Linux    Scrum master    Linux
+bash       CI/CD           JavaScript
 
-skills
+</pre>
 
-a
 
-b
+### Education
+<pre>
+Coventry Universty                       Coleg Gwent
+Ethical Hacking BSC                    Computing Btec
+2:1                                                Tripple merit
+2014 - 2018                                  2012 -2014
+</pre>
 
-c
+### Work Experance
+
+
+
 
 ### Contact me
 
