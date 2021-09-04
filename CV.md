@@ -4,14 +4,14 @@ title: CV
 permalink: /cv/
 ---
 
-Hello, I'm Jake, a devops engineer based in Cardiff. I found my way into devops after working in blue team security didnt scratch my itech to fix and build things. I enjoy problem solving and am motavated by adversaty. I am more than happy working alone but much prefer working with a team. Outside of work I enjoy video games, playing squash, photography and cooking. Thank you for taking the time to read my cv.
+Hello, I'm Jake, a devops engineer based in Cardiff. I found my way into devops after working in blue team security didn’t scratch my itch to fix and build things. I enjoy problem solving and am motivated by adversity. I am more than happy working alone but much prefer working with a team. Outside of work I enjoy video games, playing squash, photography and cooking. Thank you for taking the time to read my cv.
 
 ---
 ### Skills
 <pre>
-AWS       Terraform      Git        Github               Github actions 
-Jenkins   MongoDB     Linux    Scrum master    Linux
-bash       CI/CD           JavaScript
+AWS       Terraform      Git                 Github               Github actions 
+Jenkins   MongoDB     Linux             Scrum master    Linux
+bash       CI/CD           JavaScript      Docker
 
 </pre>
 
@@ -28,15 +28,16 @@ Ethical Hacking BSC                    Computing Btec
 ### Work Experance
 **Devops Engineer**
 <pre>
-Seccl Oct 2020 - Pressent
-working within a small team, modinising devops at Seccl
-</pre>
+Seccl Oct 2020 - Pressent </pre>
+Working within a small team, modernising devops at  [Seccl](https://seccl.tech)
 
-- Migrating aplications from lambda to containers
-- Moving from an outdated Jekins based CI/CD soloution to a Github actions based one
+
+- Migrating applications from lambda to containers
+- Moving from an outdated Jenkins based CI/CD solution to a Github actions based one
 - Replacing bespoke, undocumented, monolithic devops solution with modular tooling
-- Moving ECS deployments on EC2 to fargate using terraform
-- Acting as scrum master for standup, refinments and retros
+- Moving ECS deployments on EC2 to Fargate using terraform
+- Acting as scrum master for standup, refinements and retros
+
 
 **Devops Engineer**
 <pre>
