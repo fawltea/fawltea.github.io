@@ -32,7 +32,7 @@ Seccl Oct 2020 - Pressent </pre>
 Working within a small team, modernising devops at  [Seccl](https://seccl.tech)
 
 
-- Migrating applications from lambda to containers
+- Migrating applications from lambda to containers due to oversized functions
 - Moving from an outdated Jenkins based CI/CD solution to a Github actions based one
 - Replacing bespoke, undocumented, monolithic devops solution with modular tooling
 - Moving ECS deployments on EC2 to Fargate using terraform
