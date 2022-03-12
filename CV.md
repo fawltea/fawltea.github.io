@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-you can [download pdf](https://jakestocker.com/jakestockercv.pdf)
+You can download my CV [here](https://jakestocker.com/jakestockercv.pdf)
 ### Contact me
 
 [hello@jakestocker.com](mailto:email@domain.com)
