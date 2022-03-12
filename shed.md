@@ -17,3 +17,7 @@ I am also using foil bubblerap for an added layer.
 This is the colour that I am going for on the outside of the shed, its haf stain and half paint so it will protect the shed form the shit welsh weather. (Although I am looking forward to using the shed on a rainy day.)
 
 ![Start of paint](https://raw.githubusercontent.com/fawltea/fawltea.github.io/master/images/paint-start.jpg "Start of paint")
+
+After I finished insulation on one half of the roof, I have started boarding the roof. The initial plan was to use plasterboard as its cheap and has a nce finish. However at the endo fthe day this is still a shed and I am not a profeshanal so I have used pallet boards. These are cheap, hard wareing and dont requier high persisoon to install and look good. Each board costs 2 quid. It will cost about 90 quid to do the roof, 40 quid for the 2 side walls, 40 quid for the front wall and 100 for the back wall. I am limited by my skill level but that 
+
+![Roof-start](https://raw.githubusercontent.com/fawltea/fawltea.github.io/master/images/shed-roof-half.jpg "Start of roof")
