@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 100 Days
-permalink: /100days/
+title: 
+permalink: /healthstats/
 ---
 
-| Priority apples | Second priority | Third priority |
+
+| Currnet Weight | Current VO2MAX | Currnet 5k PB |
 |-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| 113.3KG | 36.8 | 33:17 |
