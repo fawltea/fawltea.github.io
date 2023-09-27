@@ -6,20 +6,17 @@ permalink: /about/
 
 ## About
 
-Hi, I'm Jake, I'm a Devops engineer based in Cardiff. 
+Hi, I'm Jake, I'm a DevOps engineer based in Cardiff.
 
-I've been in Devops just over 3 years, currnetly transisiong old workflows over to Github actions and automating infurestarture in AWS with terraform.
-
+I've been in DevOps for just over 3 years, currently transitioning old workflows over to GitHub actions and automating infrastructure in AWS with Terraform.
 
 ### Current Projects
 
-These are my currnet peronal projects:
+These are my current personal projects:
 
-- **Project 1**: [Opensource paitent manigment software]
-- **Project 2**: [Gameoff 2023]
-- **Project 3**: [Brief de]
-
-
+- **SyncHealth**: Patient management software
+- **Gameoff 2023**: 2023 Entry into Gameoff (TBD)
+- **GitHub CI/CD Stuff**: Experimenting with workflows
 
 ### Contact me
 
