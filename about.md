@@ -12,7 +12,7 @@ I've been in DevOps for just over 3 years, currently transitioning old workflows
 ### Formal Education
 -  Graduated Coventry universty with a 2:1 In Ethical Hacking
 
-### I can help with 
+### I can help with
 - Github actions pipelines
 - Green/Brown field IaC projects
 - Automated testing
