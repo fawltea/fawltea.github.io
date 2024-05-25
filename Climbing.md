@@ -4,9 +4,7 @@ title: Climbing
 permalink: /climbing
 ---
 
-### Witches point 
 
-Fatman and Nob in - 3+ *Lead* 25/05/24
 
 ### Taffs Well Pinical
 
@@ -24,3 +22,8 @@ YAR ! - 5 12/05/24
 Leopard Prints -  4+  18/05/24
 
 Cleftomanic -  4 18/05/24
+
+
+### Witches point 
+
+Fatman and Nob in - 3+ *Lead* 25/05/24
