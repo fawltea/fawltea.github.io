@@ -1,7 +1,7 @@
 ---
 layout: page
-title: learning
-permalink: /learning
+title: Professional development log
+permalink: /development
 ---
 
 
