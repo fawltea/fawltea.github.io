@@ -20,7 +20,7 @@ I will be tracking a bunch of stuff as benchmarks for improvement and a few othe
 ### Other
 - Climbing Sessions
 
-**Starting weight:**  
+**Starting weight:**  113.5kg
 **Current 5k time:** 36:11
 
 You can see records per day below:
