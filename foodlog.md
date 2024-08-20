@@ -9,56 +9,47 @@ permalink: /foodlog
 
 **19/08/24**
 
-*** Breakfast ***
+***Breakfast***
 - Marmite toast x 2 
 - Tea
 - 500ml Water
-*** Lunch ***
+***Lunch***
 - Chicken and Cheese bagle
 - Banana
 - Biltong
 - 500ml Water
-*** Dinner ***
+***Dinner***
 - Grilled Mushrooms
 - Bacon
 - Boiled eggs
-*** Snacks ***
+***Snacks***
 - Mentos
 - Pound cake with Cream
 
 **20/08/24**
 
-*** Breakfast ***
+***Breakfast***
 - Bacon sandwich
 - Tea
 - 400ml Water
-*** Lunch ***
+***Lunch***
 - Marmite Toast
 - Tea
 - 500ml Water
 - Prunes
-*** Dinner ***
+***Dinner***
 
-*** Snacks ***
+***Snacks***
 - Blueberry Nutragrain bar
 
 
 **21/08/24**
 
-*** Breakfast ***
+***Breakfast***
 
-*** Lunch ***
+***Lunch***
 
-*** Dinner ***
+***Dinner***
 
-*** Snacks ***
+***Snacks***
 
-**22/08/24**
-
-*** Breakfast ***
-
-*** Lunch ***
-
-*** Dinner ***
-
-*** Snacks ***
