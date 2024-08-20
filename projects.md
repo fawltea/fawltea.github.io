@@ -26,3 +26,21 @@ I will be tracking a bunch of stuff as benchmarks for improvement and a few othe
 You can see records per day below:
 
 **19/08/24**
+
+*** Food Log ***
+*** Breakfast ***
+- Marmite toast x 2 
+- Tea
+- 500ml Water
+*** Lunch ***
+- Chicken and Cheese bagle
+- Banana
+- Biltong
+- 500ml Water
+*** Dinner ***
+- Grilled Mushrooms
+- Bacon
+- Boiled eggs
+*** Snacks ***
+- Mentos
+- Pound cake with Cream

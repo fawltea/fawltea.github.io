@@ -6,7 +6,7 @@ permalink: /about/
 
 Hi, I'm Jake, a DevOps engineer based in Cardiff.
 
-I've been in DevOps for just over 3 years, currently transitioning old workflows to GitHub Actions and automating infrastructure in AWS with Terraform.
+I've been a devops engineer for 3 years, currently transitioning old workflows to GitHub Actions and automating infrastructure in AWS with Terraform.
 
 ### Formal Education
 - Graduated from Coventry University with a 2:1 in Ethical Hacking.
