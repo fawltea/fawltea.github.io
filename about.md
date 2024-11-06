@@ -6,30 +6,12 @@ permalink: /about/
 
 Hi, I'm Jake, I'm a automation and infrastructure guy. I like to build things.
 
-## Skills
-
-### Languages
-- **Python**
-- **Go**
-- **SQL**
-
-### DevOps & CI/CD Tools
-- **CI/CD**:
-  - GitHub Actions
-  - Jenkins
-- **Infrastructure as Code**:
-  - Terraform
-
-### Databases
-- **SQL** (Relational Databases)
-- **MongoDB** (NoSQL)
-
-### Containerization & Orchestration
-- **Docker**
-- **Kubernetes**
-
-### Cloud Platforms
-- **AWS** (Amazon Web Services)
+**Languages**: Python, Go, SQL  
+**CI/CD**: GitHub Actions, Jenkins  
+**Databases**: SQL (Relational), MongoDB (NoSQL)  
+**Containerization & Orchestration**: Docker, Kubernetes  
+**Cloud Platforms**: AWS  
+**Infrastructure as Code**: Terraform
 
 
 ---
