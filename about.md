@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
-
-# About Me
 
 Hi, I'm Jake, I'm a automation and infrastructure guy. I like to build things.
 
