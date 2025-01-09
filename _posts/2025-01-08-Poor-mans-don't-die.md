@@ -61,11 +61,14 @@ This one is very easy for me. I have great friends and family who I love and enj
 
 I don’t drink, and I don’t smoke, but I do have an addiction to sugar and fast food that I’ll need to break. I hope meal prepping will help with this, but it’s a bridge I’ll cross when I come to it.
 
----
 
 This will be an ever-changing process, and I’ll endeavour to keep up with it and document the results here. I’ll take some starting measurements and update this article below.  
 
 The long and short of it is: I’m scared of dying. But instead of accepting that, I’m going to do something about it (albeit without the resources of a millionaire).
+
+---
+
+Mesurments will be here 
 
 
 
