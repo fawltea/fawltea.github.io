@@ -3,10 +3,6 @@ layout: post
 title: Kubectl cheat sheet
 categories: [tech]
 ---
-
-Just a little cheat sheet for a new thing that I am learning
-
-
 #  kubectl Cheat Sheet
 
 ## 📋 Listing Resources
