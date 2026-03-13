@@ -3,25 +3,39 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
+// Forest Green Palette
+$green:        #2D6A4F;  // primary forest green
+$greenDark:    #1B4332;  // dark forest green
+$greenMid:     #40916C;  // mid forest green
+$greenLight:   #74C69D;  // light green accent
+$greenPale:    #D8F3DC;  // very light green tint
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+// Grays & neutrals
+$black:        #000;
+$darkerGray:   #1a1a1a;
+$darkGray:     #2C2C2C;
+$gray:         #6B7280;
+$lightGray:    #E5E7EB;
+$offWhite:     #F9FAFB;
+$white:        #fff;
+
+// Legacy alias (used in existing code)
+$blue: $green;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
+$helvetica:    Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$georgia:      Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
   @media screen and (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 900px) {
     @content;
   }
 }

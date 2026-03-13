@@ -4,29 +4,32 @@ layout: default
 
 <div class="posts">
   {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
-
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
-        </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
+  <div class="post-card">
+    <div class="post-meta">
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      {% if post.categories.size > 0 %}
+      <div class="post-categories">
+        {% for category in post.categories %}
+          <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="post-category-tag">{{ category }}</a>
+        {% endfor %}
       </div>
+      {% endif %}
+    </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read more &rarr;</a>
+  </div>
   {% endfor %}
 
-  <!-- pagination -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Newer</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span>&laquo; Newer</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
@@ -40,9 +43,9 @@ layout: default
     {% endfor %}
 
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older &raquo;</a>
     {% else %}
-      <span>Next &raquo;</span>
+      <span>Older &raquo;</span>
     {% endif %}
   </div>
   {% endif %}
