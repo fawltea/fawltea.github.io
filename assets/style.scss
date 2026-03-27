@@ -1,8 +1,10 @@
 ---
 ---
 
-@import "reset";
-@import "variables";
+@use "reset";
+@use "variables" as *;
+@use "darcula";
+@use "svg-icons";
 
 /**************/
 /* BASE RULES */
@@ -692,6 +694,3 @@ footer {
   background: $greenPale;
   margin: 3px 3px 3px 0;
 }
-
-@import "darcula";
-@import "svg-icons";

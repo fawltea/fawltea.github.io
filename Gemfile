@@ -1,3 +1,8 @@
 source "https://rubygems.org"
-gem 'github-pages'
+gem "jekyll", "~> 4.4"
 gem "webrick", "~> 1.7"
+gem "minima", "~> 2.5"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-seo-tag"
+gem "jekyll-paginate"
