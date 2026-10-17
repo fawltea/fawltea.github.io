@@ -32,20 +32,57 @@ h1, h2, h3 { font-weight: 700; line-height: 1.2; letter-spacing: -0.01em; }
 
 /* Home */
 
-body.home {
-  min-height: 100vh;
+$line: #e4e4e4;
+$line-strong: #c9c9c9;
+
+body.home { overflow: hidden; }
+
+.board {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 24px;
 }
 
-.home-main { text-align: center; }
+.trace {
+  position: absolute;
+  background: $line;
+  pointer-events: none;
+
+  &.h { left: 0; right: 0; height: 1px; }
+  &.v { top: 0; bottom: 0; width: 1px; }
+}
+
+.home-main { position: relative; text-align: center; }
+
+.frame {
+  position: relative;
+  display: inline-block;
+  padding: 28px 40px;
+  margin-bottom: 1.75rem;
+}
+
+.edge {
+  position: absolute;
+  background: $line-strong;
+  pointer-events: none;
+
+  &.top, &.bottom { left: -100vw; right: -100vw; height: 1px; }
+  &.left, &.right { top: -100vh; bottom: -100vh; width: 1px; }
+  &.top { top: 0; }
+  &.bottom { bottom: 0; }
+  &.left { left: 0; }
+  &.right { right: 0; }
+}
 
 .home-name {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
-  letter-spacing: -0.03em;
-  margin: 0 0 1.5rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin: 0;
 }
 
 .home-nav {
@@ -55,8 +92,25 @@ body.home {
   gap: 0.75rem 2rem;
   font-size: 1.15rem;
 
-  a { text-decoration: none; }
-  a:hover { text-decoration: underline; color: $text; }
+  a {
+    position: relative;
+    display: inline-block;
+    padding: 2px 8px;
+    background: $bg;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+  a:hover, a:focus-visible { transform: translateY(-3px); color: $text; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-nav a { transition: none; }
+}
+
+@media (max-width: 520px) {
+  .frame { padding: 20px 20px; }
+  .trace.wide-only { display: none; }
+  .home-nav { gap: 0.75rem 1rem; }
 }
 
 /* Inner pages */
