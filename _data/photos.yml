@@ -1,13 +1,9 @@
-# Add your photos here.
-# - file: the filename inside /images/photos/
-# - caption: optional description shown on hover
+# Photos shown on /photos/, newest last (the page shows them newest first).
+# 1. Put the image in images/photos/
+# 2. Add an entry below:
 #
-# Example:
-# - file: cardiff-castle.jpg
-#   caption: Cardiff Castle on a sunny afternoon
-#
-# - file: hiking.jpg
-#   caption: Pen y Fan, Brecon Beacons
+# - file: cardiff-castle.jpg       # filename inside images/photos/
+#   caption: Cardiff Castle         # optional
 
-# - file: Ponty_Lido.jpeg
-# - caption: Incredible morning swim 27/04/26
+- file: Ponty_Lido.jpeg
+  caption: Incredible morning swim 27/04/26

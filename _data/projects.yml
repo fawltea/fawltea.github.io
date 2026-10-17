@@ -1,0 +1,14 @@
+# Projects shown on /projects/, in the order listed.
+# - name: Project name
+#   url: https://github.com/fawltea/...   # optional
+#   description: One or two sentences.
+#   tags: [Terraform, AWS]                  # optional
+
+- name: jakestocker.com
+  url: https://github.com/fawltea/fawltea.github.io
+  description: This website. A small Jekyll site on GitHub Pages for my blog, photos, CV and projects.
+  tags: [Jekyll, GitHub Pages]
+
+- name: Placeholder project
+  description: Replace this entry in _data/projects.yml with a real project.
+  tags: [Example]

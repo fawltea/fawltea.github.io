@@ -3,22 +3,9 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="post-meta">
-    <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
-    {% if page.categories.size > 0 %}
-    <div class="post-categories">
-      {% for category in page.categories %}
-        <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}" class="post-category-tag">{{ category }}</a>
-      {% endfor %}
-    </div>
-    {% endif %}
-  </div>
-
+  <p class="post-date"><a href="{{ '/blog/' | relative_url }}">Blog</a> · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+  <h1 class="page-title">{{ page.title }}</h1>
   <div class="entry">
     {{ content }}
   </div>
-
-  {% include disqus.html %}
 </article>
