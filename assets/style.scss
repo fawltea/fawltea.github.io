@@ -93,12 +93,17 @@ body.home { overflow: hidden; }
   margin: 0;
 }
 
+// Split into two halves so the centre of the nav sits exactly in the gap
+// between the middle two links, where the AI statement link goes.
 .home-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
   font-size: 1.15rem;
+
+  .half { display: flex; flex-wrap: wrap; gap: 0.75rem 2rem; }
+  .left { justify-content: flex-end; }
+  .right { justify-content: flex-start; }
 
   a {
     position: relative;
@@ -111,14 +116,31 @@ body.home { overflow: hidden; }
   a:hover, a:focus-visible { transform: translateY(-3px); color: $text; }
 }
 
+.home-aside {
+  position: relative;
+  display: inline-block;
+  margin-top: 1.25rem;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+  color: rgba(17, 17, 17, 0.45);
+  background: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+
+  &:hover, &:focus-visible { color: rgba(17, 17, 17, 0.8); transform: translateY(-2px); }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .home-nav a { transition: none; }
+  .home-nav a, .home-aside { transition: none; }
 }
 
 @media (max-width: 520px) {
   .frame { padding: 20px 20px; }
   .trace.wide-only { display: none; }
-  .home-nav { gap: 0.75rem 1rem; }
+  .home-nav { column-gap: 0.75rem; font-size: 1.05rem; }
+  .home-nav .half { gap: 0.75rem; }
+  .home-nav a { padding: 2px 4px; }
 }
 
 /* Inner pages */
@@ -349,4 +371,10 @@ body.lines {
   h2 a { text-decoration: none; }
   h2 a:hover { text-decoration: underline; color: $text; }
   p { margin: 0 0 0.75rem; }
+}
+
+@media (max-width: 350px) {
+  .board { padding: 12px; }
+  .home-nav { font-size: 0.95rem; column-gap: 0.5rem; }
+  .home-nav .half { gap: 0.5rem; }
 }

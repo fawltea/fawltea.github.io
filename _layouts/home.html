@@ -22,11 +22,20 @@
           <span class="edge right"></span>
           <h1 class="home-name">{{ site.name }}</h1>
         </div>
+        {% assign half = site.nav.size | divided_by: 2 %}
         <nav class="home-nav">
-          {% for item in site.nav %}
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-          {% endfor %}
+          <span class="half left">
+            {% for item in site.nav limit: half %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </span>
+          <span class="half right">
+            {% for item in site.nav offset: half %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% endfor %}
+          </span>
         </nav>
+        <a class="home-aside" href="{{ '/ai/' | relative_url }}">AI statement</a>
       </main>
     </div>
     <script src="{{ '/assets/ripple.js' | relative_url }}" defer></script>
