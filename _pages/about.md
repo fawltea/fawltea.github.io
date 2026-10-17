@@ -6,10 +6,10 @@ permalink: /about/
 
 <div class="about-intro">
   <img src="{{ site.avatar | relative_url }}" alt="Jake Stocker" class="avatar">
-  <p>I'm Jake, a DevOps engineer based in Cardiff. I take messy, undocumented infrastructure and turn it into something codified, automated and easy for teams to own. I started out in security, and it still shapes how I build. Outside work I climb, run, surf and make games in Godot.</p>
+  <p>I'm Jake, a DevOps engineer based in Cardiff with around eight years' experience across DevOps, cloud infrastructure and security. I take messy, undocumented infrastructure and turn it into something codified, automated and easy for teams to own, and my security background still shapes how I build.</p>
 </div>
 
-<p><a class="button" href="{{ '/files/jake-stocker-cv-2025.pdf' | relative_url }}">Download my CV (PDF)</a></p>
+<p><a class="button" href="{{ '/files/jake-stocker-cv.pdf' | relative_url }}">Download my CV (PDF)</a></p>
 
 ## Experience
 
