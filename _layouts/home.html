@@ -4,13 +4,29 @@
     {% include head.html %}
   </head>
   <body class="home">
-    <main class="home-main">
-      <h1 class="home-name">{{ site.name }}</h1>
-      <nav class="home-nav">
-        {% for item in site.nav %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endfor %}
-      </nav>
-    </main>
+    <div class="board">
+      <div class="trace h" style="top: 13%"></div>
+      <div class="trace h" style="top: 22%"></div>
+      <div class="trace h" style="top: 84%"></div>
+      <div class="trace v" style="left: 8%"></div>
+      <div class="trace v wide-only" style="left: 23%"></div>
+      <div class="trace v" style="left: 79%"></div>
+      <div class="trace v wide-only" style="left: 91%"></div>
+
+      <main class="home-main">
+        <div class="frame">
+          <span class="edge top"></span>
+          <span class="edge bottom"></span>
+          <span class="edge left"></span>
+          <span class="edge right"></span>
+          <h1 class="home-name">{{ site.name }}</h1>
+        </div>
+        <nav class="home-nav">
+          {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </main>
+    </div>
   </body>
 </html>
