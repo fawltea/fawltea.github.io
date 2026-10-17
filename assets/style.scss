@@ -358,11 +358,13 @@ body.lines {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 
-  > li { padding: 1.5rem 0; border-bottom: 1px solid $rule; }
+  > li { padding: 1.75rem 0; border-bottom: 1px solid $rule; }
   > li:first-child { padding-top: 0; }
+  > li:last-child { border-bottom: 0; }
   h2 { font-size: 1.25rem; margin: 0 0 0.4rem; }
   h2 a { text-decoration: none; }
   h2 a:hover { text-decoration: underline; color: $text; }
-  p { margin: 0 0 0.75rem; }
+  p { margin: 0 auto; max-width: 32em; color: $muted; font-size: 0.95rem; }
 }
