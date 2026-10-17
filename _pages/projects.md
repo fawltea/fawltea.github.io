@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+centered: true
 ---
 
 <ul class="project-list">
