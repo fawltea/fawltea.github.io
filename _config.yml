@@ -41,6 +41,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
+# Blog posts share the lines background with the blog index
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      lines: true
+
 include: ['_pages']
 
 exclude:

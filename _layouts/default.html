@@ -3,7 +3,15 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
+  <body{% if page.lines %} class="lines"{% endif %}>
+    {% if page.lines %}
+    <div class="page-lines" aria-hidden="true">
+      <div class="trace v col-left"></div>
+      <div class="trace v col-right"></div>
+      <div class="trace v faint" style="left: 6%"></div>
+      <div class="trace v faint" style="left: 94%"></div>
+    </div>
+    {% endif %}
     <header class="site-header">
       <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }}</a>
       <nav class="site-nav">
