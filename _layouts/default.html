@@ -1,60 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    {% seo title=false %}
-    {% include meta.html %}
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
-
-    <meta name="theme-color" content="#1B4332">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
-    {% include analytics_head.html %}
+    {% include head.html %}
   </head>
-
   <body>
-    <div id="bar"></div>
-    <div class="wrapper-container">
+    <header class="site-header">
+      <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+        <a href="{{ item.url | relative_url }}"{% if page.url contains item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </header>
 
-      <div class="wrapper-masthead">
-        <div class="container">
-          <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar">
-              <img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.name }}" />
-            </a>
+    <main class="site-main{% if page.wide %} wide{% endif %}">
+      {{ content }}
+    </main>
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
-            </div>
-
-            <nav>
-              <a href="{{ site.baseurl }}/"{% if page.url == '/' %} class="active"{% endif %}>Blog</a>
-              <a href="{{ site.baseurl }}/photos"{% if page.url contains '/photos' %} class="active"{% endif %}>Photos</a>
-              <a href="{{ site.baseurl }}/about"{% if page.url contains '/about' %} class="active"{% endif %}>About</a>
-            </nav>
-          </header>
-        </div>
-      </div>
-
-      <div class="wrapper-main">
-        <div id="main" role="main" class="container">
-          {{ content }}
-        </div>
-      </div>
-
-      <div class="wrapper-footer">
-        <div class="container">
-          <footer class="footer">
-            {% include svg-icons.html %}
-          </footer>
-        </div>
-      </div>
-
-    </div>
-
-    {% include analytics.html %}
+    <footer class="site-footer">
+      <a href="mailto:{{ site.email }}">Email</a>
+      <a href="https://github.com/{{ site.github }}">GitHub</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </footer>
   </body>
 </html>

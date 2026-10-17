@@ -1,22 +1,22 @@
 ---
-layout: photos
+layout: page
 title: Photos
 permalink: /photos/
-description: A collection of photos from places I've been and things I've seen.
+wide: true
 ---
 
-{% if site.data.photos and site.data.photos.size > 0 %}
-<div class="photos-grid">
-  {% assign photos_reversed = site.data.photos | reverse %}
-  {% for photo in photos_reversed %}
-  <div class="photo-item">
-    <img src="{{ site.baseurl }}/images/photos/{{ photo.file }}" alt="{{ photo.caption | default: '' }}" />
-    {% if photo.caption %}
-    <div class="photo-caption">{{ photo.caption }}</div>
-    {% endif %}
-  </div>
+{% assign photos = site.data.photos | reverse %}
+{% if photos.size > 0 %}
+<div class="photo-grid">
+  {% for photo in photos %}
+  <figure>
+    <a href="{{ '/images/photos/' | append: photo.file | relative_url }}">
+      <img src="{{ '/images/photos/' | append: photo.file | relative_url }}" alt="{{ photo.caption | default: '' | escape }}" loading="lazy">
+    </a>
+    {% if photo.caption %}<figcaption>{{ photo.caption }}</figcaption>{% endif %}
+  </figure>
   {% endfor %}
 </div>
 {% else %}
-<p class="post-excerpt">No photos yet — add some to <code>images/photos/</code> and list them in <code>_data/photos.yml</code>.</p>
+<p>No photos yet.</p>
 {% endif %}
