@@ -3,9 +3,8 @@
 #   url: https://github.com/fawltea/...   # optional
 #   description: One or two sentences.
 
-- name: jakestocker.com
-  url: https://github.com/fawltea/fawltea.github.io
-  description: This website. A small Jekyll site on GitHub Pages for my blog, photos, CV and projects.
+- name: Stocker
+  description: An intraday stock trader. Each morning it picks a few S&P 500 stocks from news sentiment, trades short price curves through the day, and is out of the market by the close. Tested on backtests and paper trading first.
 
-- name: Placeholder project
-  description: Replace this entry in _data/projects.yml with a real project.
+- name: Tobin
+  description: Pull-based continuous delivery for Docker containers, like Argo CD but for plain Docker hosts. An agent on each host keeps its Compose apps matching a deploy manifest in git and rolls back when a deploy goes unhealthy.
