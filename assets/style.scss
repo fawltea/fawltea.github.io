@@ -379,6 +379,21 @@ body.lines {
   p { margin: 0 auto; max-width: 32em; color: $muted; font-size: 0.95rem; }
 }
 
+.project-flag {
+  display: inline-block;
+  margin-top: 0.75rem;
+  padding: 2px 8px;
+  border: 1px solid $rule;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $muted;
+  text-decoration: none;
+
+  &:hover { color: $text; border-color: $muted; }
+}
+
 /* Training */
 
 .training-log {
