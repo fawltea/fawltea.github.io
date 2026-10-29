@@ -11,7 +11,3 @@
 - name: Tobin
   description: Pull-based continuous delivery for Docker containers, like Argo CD but for plain Docker hosts. An agent on each host keeps its Compose apps matching a deploy manifest in git and rolls back when a deploy goes unhealthy.
   flag: Spec-driven AI
-
-- name: Training
-  url: /training/
-  description: A log of my triathlon training. I paste the stats from each session into a chat with Claude, which turns them into an update to this site and opens a pull request.
