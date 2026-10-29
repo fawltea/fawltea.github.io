@@ -3,6 +3,7 @@ layout: page
 title: Training
 permalink: /training/
 lines: true
+sitemap: false
 ---
 
 {% assign sessions = site.data.training | sort: "date" | reverse %}
