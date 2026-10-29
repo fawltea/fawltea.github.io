@@ -3,7 +3,6 @@ layout: page
 title: Training
 permalink: /training/
 lines: true
-description: A log of my triathlon training.
 ---
 
 {% assign sessions = site.data.training | sort: "date" | reverse %}
