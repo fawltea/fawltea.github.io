@@ -6,6 +6,7 @@ Personal site built with [Jekyll](https://jekyllrb.com/) and deployed to GitHub 
 
 - **Blog post:** add `_posts/YYYY-MM-DD-title.md` with `layout: post` and a `title` in the front matter.
 - **Photo:** drop the image in `images/photos/` and add an entry to `_data/photos.yml`.
+- **Training session:** add an entry to `_data/training.yml` (shown on `/training/`).
 - **Project:** add an entry to `_data/projects.yml`.
 - **About / CV:** edit `_pages/about.md`; the downloadable CV lives at `files/jake-stocker-cv.pdf`.
 - **Home page links:** edit `nav` in `_config.yml`.

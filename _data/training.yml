@@ -1,0 +1,11 @@
+# Training sessions shown on /training/, newest first (order here doesn't matter).
+# - date: 2026-10-29
+#   sport: Run            # Run, Bike, Swim, Brick, Strength...
+#   title: Easy run       # optional
+#   stats:                # any label: value pairs, shown in the order given
+#     Distance: 10.2 km
+#     Time: "52:14"        # quote anything with a colon
+#     Pace: "5:07 /km"
+#     Avg HR: 148 bpm
+#   notes: Felt good.     # optional
+[]
