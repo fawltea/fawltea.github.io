@@ -10,6 +10,7 @@ centered: true
   <li>
     <h2>{% if project.url %}<a href="{{ project.url }}">{{ project.name }}</a>{% else %}{{ project.name }}{% endif %}</h2>
     <p>{{ project.description }}</p>
+    {% if project.flag %}<a class="project-flag" href="{{ '/ai/' | relative_url }}">{{ project.flag }}</a>{% endif %}
   </li>
   {% endfor %}
 </ul>
